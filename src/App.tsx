@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import ReactLogo from './assets/react.svg?react'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './component/Header.tsx'
@@ -19,7 +19,7 @@ function App() {
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <ReactLogo className="logo react" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={linux} className="logo react" alt="React logo" />
